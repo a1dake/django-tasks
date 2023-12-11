@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DJANGO проект
 
 Этот проект представляет собой простое REST API для управления задачами. Каждая задача имеет заголовок, описание, статус (выполнено/не выполнено) и дату создания.
@@ -8,11 +7,12 @@
 1. Клонировать репозиторий:
 
    ```bash
-   git clone https://github.com/yourusername/your-task-manager.git
+   git clone https://github.com/a1dake/django-tasks
    cd your-task-manager
 
 2. Установить зависимости:
     ```bash
+    cd tasks
     pip install -r requirements.txt
    
 3. Выполнить миграции:
@@ -30,8 +30,3 @@
 ### Документация к API  файле DOCUMENTATION.md
 
 ###### SECRET_KEY не стал скрывать, чтобы вам было легче запустить проект
-   
-=======
-# django-tasks
-django tasks
->>>>>>> 2a7a7af6d6306a534c6835c2454c002c7bd7a9bd
