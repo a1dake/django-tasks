@@ -11,11 +11,11 @@
 
 2. Установить зависимости:
     ```bash
-    cd tasks
     pip install -r requirements.txt
    
 3. Выполнить миграции:
     ```bash
+    cd tasks
     python manage.py migrate
 4. Запустить сервер:
     ```bash
