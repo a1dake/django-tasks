@@ -8,7 +8,6 @@
 
    ```bash
    git clone https://github.com/a1dake/django-tasks
-   cd your-task-manager
 
 2. Установить зависимости:
     ```bash
