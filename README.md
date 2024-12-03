@@ -61,14 +61,14 @@
        "id": 1,
        "title": "New Task",
        "description": "Task description...",
-       "status": false,
+       "is_done": false,
        "created_at": "2023-12-11T12:00:00Z"
      },
      {
        "id": 2,
        "title": "New Task 2",
        "description": "Task description 2...",
-       "status": true,
+       "is_done": true,
        "created_at": "2023-12-11T12:00:00Z"
      }
      ```
@@ -81,7 +81,7 @@
      {
        "title": "New Task",
        "description": "Task description...",
-       "status": false
+       "is_done": false
      }
      ```
    - Response:
@@ -90,7 +90,7 @@
        "id": 1,
        "title": "New Task",
        "description": "Task description...",
-       "status": false
+       "is_done": false
      }
      ```
 
@@ -103,7 +103,7 @@
        "id": 1,
        "title": "New Task",
        "description": "Task description...",
-       "status": false,
+       "is_done": false,
        "created_at": "2023-12-11T12:00:00Z"
      }
      ```
@@ -116,7 +116,7 @@
      {
        "title": "Updated Task",
        "description": "Updated description...",
-       "status": true
+       "is_done": true
      }
      ```
    - Response:
@@ -125,7 +125,7 @@
        "id": 1,
        "title": "Updated Task",
        "description": "Updated description...",
-       "status": true,
+       "is_done": true,
        "created_at": "2023-12-11T12:00:00Z",
        "updated_at": "2023-12-11T13:00:00Z"
      }
